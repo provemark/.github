@@ -33,7 +33,11 @@ sign, holds no keys, and opens no network connection while verifying.
 against `c2patool`, its answers compared with a second implementation in Go and a third
 in Python, and 111 named obligations of the specification walked one by one — but
 nobody has yet pointed it at their own files, their own trust list or their own
-hosting. Treat a verdict as something to check, not as an answer. Not on Packagist yet.
+hosting. Treat a verdict as something to check, not as an answer.
+
+```bash
+composer require provemark/c2pa-verifier
+```
 
 ### [c2pa-check](https://github.com/provemark/c2pa-check)
 
