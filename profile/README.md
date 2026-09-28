@@ -39,9 +39,9 @@ hosting. Treat a verdict as something to check, not as an answer.
 composer require provemark/c2pa-verifier
 ```
 
-### [c2pa-check](https://github.com/provemark/c2pa-check)
+### [tracefern-image-check](https://github.com/provemark/tracefern-image-check)
 
-**Provemark C2PA Check**, a WordPress plugin that verifies the Content Credentials of
+**Tracefern Image Check for C2PA**, a WordPress plugin that verifies the Content Credentials of
 every JPEG, PNG and WebP uploaded to the Media Library with c2pa-verifier, and shows the
 verdict in a Media Library column, a filter and the attachment details: *Verified:
 trusted signer*, *Intact: signer not trusted*, *Does not verify*, *No Content
